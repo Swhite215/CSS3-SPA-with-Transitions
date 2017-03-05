@@ -1,0 +1,25 @@
+/* Header and Navigation */
+#header {
+  position: absolute;
+  z-index: 2000;
+  width: 235px;
+  top: 50px;
+}
+
+#header h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+  padding: 20px;
+  background: #000;
+}
+
+#navigation {
+  margin-top: 20px;
+  width: 235px;
+  display: block;
+  list-style: none;
+  z-index: 3;
+}
