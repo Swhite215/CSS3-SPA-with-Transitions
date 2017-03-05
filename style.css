@@ -91,3 +91,9 @@
   padding: 10px;
   margin: 3px 0px;
 }
+
+/* Changing Nav-Item Color */
+#home:target ~ #header #navigation #link-home, #portfolio:target ~ #header #navigation #link-portfolio, #about:target ~ #header #navigation #link-about, #contact:target ~ #header #navigation #link-contact {
+  background-color: #000;
+  color: #fff;
+}
