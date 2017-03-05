@@ -114,7 +114,7 @@ body {
 
 /* Contact Form Styling */
 form {
-  width: 30%;
+  width: 5%;
   margin-left: 10%;
   margin-top: -5%;
 }
@@ -129,11 +129,26 @@ form label, form input, form button {
   display: block;
   width: 95%;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+form label {
+  color: white;
 }
 
 form button {
   margin-left: 2%;
+  background-color: #6fafd6;
+  border-style: none;
+  margin-top: 5px;
+  color: white;
+}
+
+#viImage {
+  width: 20%;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
 }
 /* Changing Nav-Item Color */
 #home:target ~ #header #navigation #link-home, #portfolio:target ~ #header #navigation #link-portfolio, #about:target ~ #header #navigation #link-about, #contact:target ~ #header #navigation #link-contact {
