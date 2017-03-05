@@ -1,3 +1,7 @@
+/* Globals */
+body {
+  background-color: #FF6961;
+}
 /* Header and Navigation */
 #header {
   position: absolute;
@@ -61,6 +65,18 @@
 .panel:target {
   margin-top: 0%;
   background-color: #ffcb00;
+}
+
+#portfolio.panel {
+  background-color: #77DD77;
+}
+
+#about.panel {
+  background-color: #AEC6CF;
+}
+
+#contact.panel {
+  background-color: #B19CD9;
 }
 
 /* Content Styling */
